@@ -23,5 +23,6 @@ public class Zad04 {
         } else {
             System.out.println("Punkt leży na osi.");
         }
+        scan.close();
     }
 }
