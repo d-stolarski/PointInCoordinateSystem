@@ -20,7 +20,7 @@ public class Zad04 {
             System.out.println("Punkt leży w III ćwiartce układu współrzędnych");
         } else if (x < 0 && y > 0){
             System.out.println("Punkt leży w IV ćwiartce układu współrzędnych");
-        } else {
+        } else if (x == 0 || y == 0){
             System.out.println("Punkt leży na osi.");
         }
         scan.close();
